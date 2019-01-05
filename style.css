@@ -1,0 +1,105 @@
+/* font and colors */
+body{
+	background: #E8F7EF;
+	color: #533A71;
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: Arial;
+	margin: 0;
+
+}
+h1{
+	font-family: Arial;
+	color: #533A71;
+	font-weight: bolder;
+	font-size: 30px;
+}
+h2{
+	font-family: Courier;
+	color: #533A71;
+	font-weight: lighter;
+	font-size: 25px;
+}
+h3{
+	font-family: Courier;
+	color: #533A71;
+	font-weight: lighter;
+	font-size: 25px;
+}
+h4{
+	font-family: Courier;
+	color: #533A71;
+	font-weight: lighter;
+	font-size: 25px;
+}
+h5{
+	font-family: Courier;
+	color: #533A71;
+	font-weight: lighter;
+	font-size: 25px;
+}
+a{
+	color: #777DA7;
+
+}
+a:hover{
+	text-decoration: none;
+	color: #533A71;
+}
+
+/* custom design */
+
+#banner{
+	background: url(https://picsum.photos/1000/600/?random);
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+#banner h1{
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+}
+#banner p{
+	font-weight: lighter;
+	font-size: 20px;
+}
+#banner a{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;	
+}
+#banner a:hover {
+	color: #533A71;
+}
+
+.card {
+	text-align: center;
+	padding: 50px;
+}
+
+#footer {
+	background-color: #533A71;
+	padding: 10px 0;
+}
+#footer p{
+	color: black;
+
+}
+#footer a{
+	color: black;
+	font-size: 20px;
+}
+#footer a:hover {
+	color: white;
+}
+
+/* Componenet Design */
+@import url("components/avatar.css");
+
+
+
+
+
